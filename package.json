@@ -1,0 +1,16 @@
+{
+  "name": "ToDoList",
+  "version": "1.0.0",
+  "description": "SE480 Term Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Gözde Güngör",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  }
+}

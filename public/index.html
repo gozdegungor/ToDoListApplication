@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div id="main-page">
+    <div class="header">MY TO DO LIST</div>
+    <div id="main-list">
+        <ul></ul>
+    </div>
+    <div id="icons">
+        <i class="material-icons" id="adding">
+            add_circle_outline
+        </i>
+        <i class="material-icons" id="upcoming">
+            schedule
+        </i>
+        <i class="material-icons" id="done">
+            check_circle_outline
+        </i>
+    </div>
+
+</div>
+<div id="adding-page" class="hide">
+    <div class="header">ADD YOUR TASKS</div>
+    <div class="mb-3" id="info">
+        <div id="title">
+            <p class="title">Title : </p>
+            <input type="text" class="title" id="txtItem" style="width: 500px; height: 35px;">
+        </div>
+        <div id="deadline">
+            <p class="deadline">Deadline : </p>
+            <input type="date" class="deadline" id="dateItem" style="width: 500px; height: 35px;">
+        </div>
+        <div id="button">
+            <button  id="btnCreate">Save</button>
+        </div>
+    </div>
+
+</div>
+<div id="upcoming-page" class="hide">
+    <div class="header">UPCOMING TASKS</div>
+    <div id="upcoming-list">
+        <ul></ul>
+    </div>
+
+</div>
+<div id="done-page" class="hide">
+    <div class="header">DONE TASKS</div>
+    <div id="done-list">
+        <ul></ul>
+    </div>
+</div>
+
+<script src="js/jquery-v3.3.1.min.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
+

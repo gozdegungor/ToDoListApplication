@@ -1,0 +1,153 @@
+ body{
+    background-color: lavenderblush;
+     font-family: Lato, sans-serif;
+}
+
+
+.header{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+#main-list{
+    border-style: outset;
+    border-radius: 6px;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+
+}
+ #main-list li{
+    margin-left: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+.checkBtn{
+    float: right;
+    margin-right: 10px;
+}
+.checked{
+    text-decoration: line-through;
+
+}
+.checkBtn:hover{
+    cursor: pointer;
+}
+
+.close{
+    margin-right: 5px;
+    float: right;
+
+}
+.close:hover{
+    cursor: pointer;
+}
+
+.timeBtn{
+    float: right;
+    margin-right: 10px;
+}
+
+#icons{
+    margin-top: 20px;
+    text-align: center;
+}
+.material-icons{
+    cursor: pointer;
+}
+
+
+
+ #adding-page{
+    margin-top: 100px;
+
+}
+ #info{
+     text-align: center;
+
+
+ }
+ .title{
+     display: inline-block;
+     font-size: 20px;
+     border-radius: 6px;
+
+
+ }
+.deadline{
+    display: inline-block;
+    border-radius: 6px;
+}
+#btnCreate{
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+
+
+#upcoming-page{
+    margin-top: 100px;
+}
+
+ #upcoming-list{
+     border-style: outset;
+     border-radius: 6px;
+     width: 60%;
+     height: auto;
+     margin: auto;
+     background-color: white;
+
+ }
+ #upcoming-list li{
+     margin-left: 10px;
+     margin-top: 5px;
+     border-bottom: 1px solid #eee;
+     padding: 20px 0;
+ }
+
+
+ #done-page{
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ #done-list {
+     border-style: outset;
+     border-radius: 6px;
+     width: 60%;
+     height: auto;
+     margin: auto;
+     background-color: white;
+
+ }
+ #done-list li{
+     margin-left: 10px;
+     margin-top: 5px;
+     border-bottom: 1px solid #eee;
+     padding: 20px 0;
+ }
+
+ .liDone li{
+     margin-left: 30px;
+ }
+
+.timeBtn{
+
+
+}
+
+.hide{
+    display:none !important;
+    visibility: hidden !important;
+}
+
+.itemDate{
+    margin-right: 5px;
+    float: right;
+}
